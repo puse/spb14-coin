@@ -1,0 +1,21 @@
+{
+  "name": "spb14-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Che Oshn",
+  "license": "MIT",
+  "repository": "spb14/coin",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  },
+  "dependencies": {
+    "spb14-device": "^1.0.0"
+  }
+}
