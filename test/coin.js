@@ -35,19 +35,6 @@ test('Behave fair', async t => {
 });
 
 
-test('Throw all devices', async t => {
-    let set1 = new Set(['exo', 'hopar']),
-        set2 = new Set(['heads', 'tails']),
-        set3 = new Set([new Coin(set1), new Coin(set2)]);
-
-    let coin = new Coin(set3);
-
-    let side = await coin.get();
-
-    t.true(['exo', 'hopar', 'heads', 'tails'].includes(side));
-});
-
-
 let count = stat => i => stat[i]++;
 
 let times = coin => n => {
