@@ -1,6 +1,6 @@
 {
   "name": "spb14-coin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -16,6 +16,6 @@
     "ava": "^0.17.0"
   },
   "dependencies": {
-    "spb14-device": "^1.0.0"
+    "spb14-device": "^1.1.0"
   }
 }
